@@ -95,7 +95,8 @@ a {
   .menu {
     position: absolute;
     top: 60px; /* Displays below the hamburger menu */
-    left: 10px; /* Aligns the menu to the left */
+    left: 0; /* Aligns the menu to the full width */
+    width: 100%; /* Ensures the menu spans the full width of the page */
     display: none;
     flex-direction: column; /* Stacks menu items vertically */
     align-items: flex-start; /* Aligns items to the left */
